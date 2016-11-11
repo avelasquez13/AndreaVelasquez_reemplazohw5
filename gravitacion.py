@@ -1,5 +1,4 @@
 import numpy as np
-import scipy.constants as const
 import matplotlib.pyplot as plt
 
 rx = np.array([0.324190175,-0.701534590,-0.982564148,1.104185888,3.266443877,-9.218802228,19.930781147,24.323085642])
@@ -15,7 +14,7 @@ v = np.sqrt(vx**2+vy**2+vz**2)
 x = np.log(r)
 y = np.log(v)
 
-G = const.G
+G = 4*np.pi**2
 N = 100000
 delta_m = 0.1
 delta_b = 0.1
