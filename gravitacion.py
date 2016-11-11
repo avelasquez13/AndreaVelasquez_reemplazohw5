@@ -17,11 +17,11 @@ y = np.log(v)
 
 G = const.G
 N = 100000
-delta_m = 0.01
-delta_b = 0.01
+delta_m = 0.1
+delta_b = 0.1
 
-m = [2]
-b = [8]
+m = [-0.4]
+b = [3]
 
 
 def p_obs(m, b, x, y):
