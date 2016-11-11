@@ -13,7 +13,7 @@ N = 20000
 
 delta = 0.1
 
-x_c = np.array([1])
+x_c = np.array([5])
 y_c = np.array([2])
 
 def p_obs(x_c, y_c, x, y):
